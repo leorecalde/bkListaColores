@@ -2,11 +2,16 @@
   "name": "tpbk-2.listacolores",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "node --env-file .env --watch index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["middlewares",
+    "base de datos",
+    "MongoDB",
+    "ExpressJS"],
+  "author": "Leonardo Recalde",
   "license": "ISC",
   "description": "",
   "dependencies": {
